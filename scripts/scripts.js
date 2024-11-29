@@ -9,7 +9,7 @@ You are encouraged to use the provided naming convention for ease of review.
 /****************** create variables ******************/
 /* create variables to hold the values for modelName and duration */
 
-var modelName = document.getElementById("model-text").innerHTML;
+var modelName = "XYZ";
 var duration = parseInt(document.getElementById("duration-text").innerHTML);
 
 
