@@ -56,7 +56,6 @@ function recalculate() {
 // INSERT YOUR CODE HERE
 
 var modelButton = document.getElementById("model-button");
-modelButton.addEventListener("click", changeModel);
 
 function changeModel() {
     let modelText = document.getElementById("model-text");
@@ -71,6 +70,7 @@ function changeModel() {
     recalculate();
 }  
 
+modelButton.addEventListener("click", changeModel);
 
 
 
@@ -90,7 +90,6 @@ function changeModel() {
 // INSERT YOUR CODE HERE
 
 var durationButton = document.getElementById("duration-button");
-durationButton.addEventListener("click",changeDuration);
 
 function changeDuration() {
     let durationText = document.getElementById("duration-text");
@@ -100,6 +99,7 @@ function changeDuration() {
     recalculate();
 }
 
+durationButton.addEventListener("click",changeDuration);
 
 
 
